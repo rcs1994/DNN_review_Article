@@ -1,0 +1,7 @@
+L2 Error: 0.0008793891911991085
+L2relativeError : 0.0005445157489517964
+H1 Error: 0.013806212742419811
+H1 Relative Error: 0.0029820294137280143
+No of epochs - 10000
+y = exp(x1*(1-x1))*sin(pi*x2) + exp(x2*(1-x2))*sin(pi*x1)
+bw- 700
