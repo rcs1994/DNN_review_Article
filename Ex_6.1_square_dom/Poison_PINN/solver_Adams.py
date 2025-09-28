@@ -90,7 +90,7 @@ def closure():
 losslist = list()
 
 
-for epoch in range(10000):
+for epoch in range(2000):
     loss = closure()
     losslist.append(loss)
     if epoch %100==0:
@@ -103,7 +103,7 @@ with open("results/loss.pkl",'wb') as pfile:
 
 
 
-
+# plotting figures and computing errors
 
 
 
