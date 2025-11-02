@@ -1,0 +1,30 @@
+PINN
+
+relative L2 error 0.15961969391078995
+l2 error 0.09622124321752333
+H1 error 0.33956557106490476
+relative H1 error 0.34441131687549537
+
+time = 58.01 seconds
+
+
+DRM:
+
+relative L2 error 0.0645132810489919
+l2 error 0.03888961289478999
+H1 error 0.19807746456305395
+relative H1 error 0.20090411462969268
+
+time = 41 seconds
+
+
+VPINN:
+
+
+relative L2 error 0.03779800672423621
+l2 error 0.03779800672423621
+H1 error 0.14839227693903673
+relative H1 error 0.15050989814558685
+PDE training finished.
+
+time = 78.43 seconds
