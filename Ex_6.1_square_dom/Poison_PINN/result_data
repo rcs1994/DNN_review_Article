@@ -1,0 +1,85 @@
+L2 Error: 0.0008793891911991085
+L2relativeError : 0.0005445157489517964
+H1 Error: 0.013806212742419811
+H1 Relative Error: 0.0029820294137280143
+No of epochs - 10000
+y = exp(x1*(1-x1))*sin(pi*x2) + exp(x2*(1-x2))*sin(pi*x1)
+bw- 700
+
+
+1) Output of first trianing run:
+    
+    No of Hidden layers: 2
+    No of neurons per layer: 60
+    Activation function: tanh
+    
+    N= 7000, Nb=2000
+    
+    
+L2 Error: 0.0014628985859164673
+L2relativeError : 0.0009058234137090638
+H1 Error: 0.021980998697471804
+H1 Relative Error: 0.004747716544855263
+    
+    Total Training Time: 170.08 seconds
+======================================
+Total non-zero entries in the network: 3901
+======================================
+Maximum modulus entry in the entire network is: 0.8601083159446716
+This occurs in: L2.weight
+The actual entry value (with sign) is: 0.8601083159446716
+
+
+
+2). Output of second training run:
+    
+    Total Training Time: 97.96 seconds
+======================================
+Total non-zero entries in the network: 2181
+======================================
+Maximum modulus entry in the entire network is: 0.666157603263855
+This occurs in: L7.weight
+The actual entry value (with sign) is: -0.666157603263855
+======================================
+
+Total Training Time: 97.96 seconds
+
+Final Trained Weights and Biases:
+
+L2 Error: 0.0013281279389845712
+L2relativeError : 0.0008223737414987716
+H1 Error: 0.01201058085503581
+H1 Relative Error: 0.0025941875627941324
+(base) rameshchandrasau@Rameshs-MacBook-Air-2 Poison_PINN % 
+
+    No of Hidden layers: 6
+    No of neurons per layer: 20
+    Activation function: tanh
+    
+    N= 4000, Nb=1000
+    
+    
+ 3)
+ 
+ Total Training Time: 108.18 seconds
+======================================
+Total non-zero entries in the network: 2911
+======================================
+Maximum modulus entry in the entire network is: 0.6093288660049438
+This occurs in: L7.weight
+The actual entry value (with sign) is: 0.6093288660049438   
+
+
+Final Trained Weights and Biases:
+
+L2 Error: 0.0012105969013455067
+L2relativeError : 0.0007495987954048222
+H1 Error: 0.017527309238953518
+H1 Relative Error: 0.003785755925191209
+(base) rameshchandrasau@Rameshs-MacBook-Air-2 Poison_PINN % 
+
+    No of Hidden layers: 4
+    No of neurons per layer: 30
+    Activation function: tanh
+    
+    N= 5000, Nb=1000

@@ -1,0 +1,87 @@
+L2 Error: 0.0267753020698133
+L2relativeError : 0.016579204982124816
+H1 Error: 0.2575645600013613
+H1 Relative Error: 0.05563184547331224
+no of epochs = 10,000
+bw = 700
+y = exp(x1*(1-x1))*sin(pi*x2) + exp(x2*(1-x2))*sin(pi*x1)
+
+
+1) test 1:
+    
+    Total Training Time: 80.03 seconds
+======================================
+Total non-zero entries in the network: 2911
+======================================
+Maximum modulus entry in the entire network is: 0.5998696088790894
+This occurs in: L2.weight
+The actual entry value (with sign) is: 0.5998696088790894
+======================================
+
+ No of Hidden layers : 4
+ No of Neurons per layer : 30
+ Activation function : tanh
+
+Total Training Time: 80.03 seconds
+
+Final Trained Weights and Biases:
+
+L2 Error: 0.01659054211076649
+L2relativeError : 0.010272825221608762
+H1 Error: 0.15768402272570672
+H1 Relative Error: 0.03405846357837588
+
+
+
+2) Test 2:
+    
+Total Training Time: 114.69 seconds
+======================================
+Total non-zero entries in the network: 3901
+======================================
+Maximum modulus entry in the entire network is: 0.7300458550453186
+This occurs in: L2.weight
+The actual entry value (with sign) is: 0.7300458550453186
+
+Total Training Time: 114.69 seconds
+
+Final Trained Weights and Biases:
+    
+    
+     No of Hidden layers : 2
+ No of Neurons per layer : 60
+
+L2 Error: 0.04065790729748969
+L2relativeError : 0.02517528196215081
+H1 Error: 0.43336730727170075
+H1 Relative Error: 0.0936038058621002
+
+
+
+
+Test 3:  
+    
+    
+    Total Training Time: 63.19 seconds
+======================================
+Total non-zero entries in the network: 2141
+======================================
+Maximum modulus entry in the entire network is: 0.6504955291748047
+This occurs in: L2.weight
+The actual entry value (with sign) is: -0.6504955291748047
+======================================
+
+
+     No of Hidden layers : 6
+ No of Neurons per layer : 20
+
+    
+    Total Training Time: 63.19 seconds
+
+Final Trained Weights and Biases:
+
+L2 Error: 0.032447329137659645
+L2relativeError : 0.020091310995972698
+H1 Error: 0.3015505894704974
+H1 Relative Error: 0.0651324692951556
+

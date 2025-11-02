@@ -1,0 +1,8 @@
+Total Training Time: 63.19 seconds
+======================================
+Total non-zero entries in the network: 2141
+======================================
+Maximum modulus entry in the entire network is: 0.6504955291748047
+This occurs in: L2.weight
+The actual entry value (with sign) is: -0.6504955291748047
+======================================
